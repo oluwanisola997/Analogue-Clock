@@ -1,0 +1,64 @@
+#clockImg{
+    position: relative;
+    margin: auto;
+    height: 40vw;
+    width: 40vw;
+    background: url(clock.jpg) no-repeat;
+
+    background-size: 100%;
+}
+#hour,
+#minute,
+#second{
+    position: absolute;
+    border-radius: 10px;
+    transform-origin: bottom;
+
+}
+#hour{
+    width: 1.8%;
+    height: 25%;
+    top: 25%;
+    left: 48%;
+    opacity: 0.8;
+    border-color: black;
+    border-style: dotted;
+}
+#minute{
+    width: 1.6%;
+    height: 30%;
+    top: 19%;
+    left: 49%;
+    border-color:red;
+    border-style: dotted;
+    opacity: 0.8;
+}
+#second{
+    width: 1%;
+    height: 40%;
+    top: 9%;
+    left: 49.50%;
+    opacity: 0.8;
+    border-color:green;
+    border-style: dotted;
+}
+.brand{
+    font-size: 45px;
+    font-weight: bolder;
+    font-family: monospace;
+    color: purple;
+    position: absolute;
+    top: 90px;
+    left: 35%;
+    opacity: 0.8;
+}
+.brand_1{
+    font-size: 45px;
+    font-weight: bolder;
+    font-family: monospace;
+    color:blue;
+    position: absolute;
+    top: 410px;
+    left: 35%;
+    opacity: 0.6;
+}
